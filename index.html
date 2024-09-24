@@ -3,58 +3,68 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      header{
-        background-color: #ccc;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        border-radius: 5px;
-      }
-    </style>
     <title>Curriculum</title>
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./styles/general.css">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
-      <img src="./perfil.jpeg" alt="perfil" width="100px">
+      <img src="./imagenes/perfil.jpeg" alt="perfil" width="150px">
       <h2>Luis Eduardo Rojas Bonilla</h2>
     </header>
     <main>
-      <section>
+      <section class="experienciaLaboral">
         <h2>Experiencias laborales</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quoquodrepudiandae aut tenetur libero alias, vero nihil repellat saepe adipisci eoseum eligendi iusto laudantium, reprehenderit consequatur ducimus magni. Sit</p>
+        <p>Tengo experiencia en la instalación de cielos falsos en PVC, paredes en PVC y pisos en SPC. Durante mi tiempo en este campo, he desarrollado habilidades prácticas y técnicas que me permiten realizar instalaciones de alta calidad y eficiencia. He trabajado en diversos proyectos, asegurando siempre la satisfacción del cliente.</p>
+        <div>
+          <img src="./imagenes/cieloPVC.jpeg" alt="" width="300px">
+          <img src="./imagenes/paredPVC.jpeg" alt="" width="300px">
+          <img src="./imagenes/cieloPVC2.jpeg" alt="" width="300px">
+        </div>
       </section>
       <section>
         <h2>Habilidades</h2>
         <ol>
-          <li>Java</li>
-          <li>Python</li>
-          <li>c++</li>
-          <li>JS</li>
-          <li>Html</li>
-          <li>Css</li>
+          <li><span>Java:</span> Tengo conocimientos basicos de este lenguaje de programacion, como lo seria la sintaxis, programacion orientada a objetos, entrada y salida de datos, tambien se el uso de la interface grafica que ofrece este lenguaje.</li>
+          <li><span>Python:</span> De este lenguaje tengo conocimientos de la sintaxis y programacion orientada a objetos</li>
+          <li><span>C++:</span> De igual forma, se la sintaxis y programacion orientada a objetos</li>
+          <li><span>Html: </span> Se el uso de este lenguaje de etiquetas y como crear un sitio web basico</li>
+          <li><span>Css: </span> Manejo el uso de estilos</li>
+          <li><span>Java Script:</span> Se lo basico de JS para usarlo con el html</li>
+          <li><span>Fuera de programar:</span>
+            <ul>
+              <li>Se intalar cielos falsos en PVC</li>
+              <li>Se instalar paredes en PVP</li>
+              <li>Se instalar piso en spc</li>
+            </ul>
+          </li>
         </ol>
       </section>
       <section>
         <h2>Estudio</h2>
-        <p>Ingenieria en informatica</p>
+        <p>Ingenieria en informatica en la Universidad Experimental del Tachira</p>
       </section>
     </main>
-    <section>
+    <section class="formulario">
       <h2>Formulario de contacto</h2>
       <form action="">
-        <label for="nombre">Nombre</label>
+        <label for="nombre">Nombre:</label>
         <input type="text" name="nombre" required placeholder="nombre">
-        <label for="apellido">Apellido</label>
+        <label for="apellido">Apellido:</label>
         <input type="text" name="apellido" required placeholder="apellido">
-        <label for="email">Email</label>
+        <label for="email">Email:</label>
         <input type="email" name="email" required placeholder="email">
-        <label for="facebook">Facebook</label>
+        <label for="facebook">Facebook:</label>
         <input type="facebook" name="facebook" required placeholder="facebook">
-        <label for="instagram">Instagram</label>
+        <label for="instagram">Instagram:</label>
         <input type="instagram" name="instagram" required placeholder="instagram">
-        <label for="contacto">Contacto</label>
+        <label for="contacto">Contacto:</label>
         <input type="contacto" name="contacto" required>
+        <button>Enviar</button>
       </form>
     </section>
   </body>
